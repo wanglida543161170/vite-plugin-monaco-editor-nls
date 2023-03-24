@@ -3,7 +3,7 @@
 ### Install:
 
 ```shell
-yarn add -D vite-plugin-monaco-editor-nls
+yarn add -D jc-vite-plugin-monaco-editor-nls
 ```
 
 ### Using
@@ -14,7 +14,7 @@ Add this plugin in vite.config.ts：
 import MonacoEditorNlsPlugin, {
     esbuildPluginMonacoEditorNls,
     Languages,
-} from 'vite-plugin-monaco-editor-nls';
+} from 'jc-vite-plugin-monaco-editor-nls';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -71,7 +71,7 @@ import {defineConfig} from 'vite';
 import MonacoEditorNlsPlugin, {
     esbuildPluginMonacoEditorNls,
     Languages,
-} from 'vite-plugin-monaco-editor-nls';
+} from 'jc-vite-plugin-monaco-editor-nls';
 import Inspect from 'vite-plugin-inspect';
 
 const zh_CN = require('vscode-loc.git/i18n/vscode-language-pack-zh-hans/translations/main.i18n.json')

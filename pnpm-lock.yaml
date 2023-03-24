@@ -33,7 +33,7 @@ importers:
       typescript: ^4.1.2
       vite: 3.0.4
       vite-plugin-inspect: ^0.6.0
-      vite-plugin-monaco-editor-nls: workspace:*
+      jc-vite-plugin-monaco-editor-nls: workspace:*
       vscode-loc.git: git+https://jihulab.com/james-curtis/vscode-loc.git
     dependencies:
       monaco-editor: 0.34.0
@@ -48,7 +48,7 @@ importers:
       typescript: 4.2.4
       vite: 3.0.4_less@4.1.3
       vite-plugin-inspect: 0.6.0_vite@3.0.4
-      vite-plugin-monaco-editor-nls: link:..
+      jc-vite-plugin-monaco-editor-nls: link:..
       vscode-loc.git: jihulab.com/james-curtis/vscode-loc/ba1c490723a7774c5f9b6cbcebf74f73bcf88651
 
 packages:
